@@ -21,7 +21,7 @@
       <h1 class="nav__logo">Cuisiny</h1>
       <ul class="flex flex__box nav__list">
         <li><a href="#home" class="nav__lists">Home</a></li>
-        <li><a href="" class="nav__lists">About us</a></li>
+        <li><a href="#about" class="nav__lists">About us</a></li>
         <li><a href="" class="nav__lists">Menu</a></li>
         <li><a href="" class="nav__lists">Order Now</a></li>
         <li><a href="" class="nav__lists">Blog</a></li>
@@ -33,8 +33,9 @@
       </aside>
     </nav>
     <section id="home"class="home p__relative">
+      
       <article  class="p__absolute home__content flex flex__column p__1 text__left">
-        <h1>Welcome to Our Cuisine Resturant</h1>
+        <h1>Welcome to Our Cuisine Restaurant</h1>
         <p>Experience the best of culinary delights with our exquisite menu, crafted to tantalize your taste buds and satisfy your cravings.</p>
         <button class="btn btn__primary">Order Now</button>
         <div class="home__icons flex">
@@ -44,9 +45,24 @@
         </div>
 
       </article>
-      <div class="overlay p__absolute flex"></div>
-      <img src="src/images/home/homeImage1.webp" class="hero__img" alt="image of a cuisine">
+      
+      <img src="src/images/home/homeImage1.webp" class="hero__img" id="hero__img" alt="image of a cuisine">
     </section>
   </header>
+  <main>
+    <section id="about" class="about flex p__relative">
+      <img src="src/images/About/about1.webp" alt="image of food on plates" class="about__img p__absolute">
+      <div class="overlay p__absolute"></div>
+      <article class="about__content m__center p__1 text__left">
+        <h3 class="about__title m__0">About Us</h3>
+        <h2 class="content__header">Discover our Restaurant Story</h2>
+        <p class="about__text">At Cuisiny, we serve up fresh, flavorful dishes crafted with care—perfect for casual bites or special moments. Every meal is made to be memorable.</p>
+        <p>Our passionate chefs and welcoming team are here to serve more than just meals—we’re serving connection, comfort, and unforgettable flavors. Come share in the experience and taste what makes our menu truly special. 🍷✨</p>
+      </article>
+
+      <img id="aboitImg2" src="src/images/About/abou2.webp" alt=" class="about__img p__absolute"></img>
+     
+    </section>
+  </main>
 </body>
 </html>
